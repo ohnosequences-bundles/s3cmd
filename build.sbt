@@ -13,6 +13,6 @@ licenses := Seq("AGPLv3" -> url("http://www.gnu.org/licenses/agpl-3.0.txt"))
 bundleObjects := Seq("ohnosequences.statika.S3cmd")
 
 libraryDependencies ++= Seq( 
-  "ohnosequences" %% "git" % "0.7.0-SNAPSHOT"
-, "ohnosequences" %% "python" % "0.2.0-SNAPSHOT"
+  "ohnosequences" %% "git" % "0.7.0"
+, "ohnosequences" %% "python" % "0.2.0"
 ) 
