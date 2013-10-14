@@ -3,7 +3,7 @@ package ohnosequences.statika
 import ohnosequences.statika._
 import sys.process._
 
-case object S3cmd extends Bundle(Git :: Python :: HNil) {
+case object S3cmd extends Bundle(Git :+: Python) {
 
   val metadata = generated.metadata.S3cmd
 
