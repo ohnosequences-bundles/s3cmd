@@ -10,9 +10,6 @@ organizationHomepage := Some(url("http://ohnosequences.com"))
 
 licenses := Seq("AGPLv3" -> url("http://www.gnu.org/licenses/agpl-3.0.txt"))
 
-bundleObjects := Seq("ohnosequences.statika.S3cmd")
-
 libraryDependencies ++= Seq( 
-  "ohnosequences" %% "git" % "0.8.0-SNAPSHOT"
-, "ohnosequences" %% "python" % "0.3.0-SNAPSHOT"
+  "ohnosequences" %% "yum" % "0.1.0-SNAPSHOT"
 ) 
